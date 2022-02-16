@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.container img {
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+.titleContainer {
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.pointText {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 5px;
+}
+
+.scoreContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.instructionText {
+    margin: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    width: 33.34%;
+    border: none;
+    padding: 20px 0px;
+}
+
+.buttons button:nth-of-type(1) {
+    background-color: rgb(68, 136, 68);
+}
+
+.buttons button:nth-of-type(2) {
+    background-color: rgb(70, 70, 255);
+}
+
+.buttons button:nth-of-type(3) {
+    background-color: rgb(255, 78, 78);
+}
+
+.buttons button:active {
+    background-color: rgb(170, 170, 170);
+}

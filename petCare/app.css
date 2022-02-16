@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.healthBar {
+    border: 5px solid black;
+    width: 250px;
+    height: 20px;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.picture {
+    width: 250px;
+    height: 200px;
+    border: 5px solid black;
+    margin: 1rem;
+}
+
+.picture img {
+    width: 250px;
+    height: 200px;
+}
+
+.dog, .cat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 1rem;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(160, 255, 255);
+}
+
+.bar {
+    width: 21px;
+    height: 15px;
+    background-color: green;
+    margin: 0px 2px;
+}

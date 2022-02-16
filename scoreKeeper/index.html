@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper!</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://img.search.brave.com/9z4Vs3SA90D_Q0iw1DGVx1GiyGZx8F9uK2gznMDE1m8/rs:fit:900:600:1/g:ce/aHR0cHM6Ly93d3cu/cGluZ3BvbmdleHBl/cnRzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wOC9N/YW4tUGxheWluZy1Q/aW5nLVBvbmcucG5n"
+            alt="">
+        <div class="titleContainer">
+            <h3>Ping Pong Score Keeper</h3>
+        </div>
+        <div class="scoreContainer">
+            <p class="pointText">
+                <span id="player1">0</span> to <span id="player2">0</span>
+            </p>
+            <p class="instructionText">
+                Use the buttons below to keep score.
+            </p>
+            <label for=""><b>Playing To</b></label>
+            <input id="scoreGoal" type="number">
+            <div class="buttons">
+                <button id="btn1">+1 Player One</button>
+                <button id="btn2">+1 Player Two</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
