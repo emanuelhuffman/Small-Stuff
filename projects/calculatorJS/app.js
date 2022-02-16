@@ -4,6 +4,7 @@ let ac = document.querySelector('.ac');
 let eq = document.querySelector('.equal');
 let body = document.querySelector('body');
 
+//---Animation background I was playing with
 // setInterval(() => {
 //     setTimeout(() => {
 //         body.style.backgroundColor = 'red';
