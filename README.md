@@ -28,3 +28,6 @@
 -A small maze game using arrow keys to navigate. Generates a maze using recursive backtracking. (*still under construction*)
 
 <img src="https://github.com/emanuelhuffman/Small-Stuff/blob/master/images/maze.PNG?raw=true" width="200" height="200">
+
+### Public Posts
+-Can create, edit, delete and get posts.
